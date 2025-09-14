@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-    cout << "conflict1 -- merge" << endl;
+    cout << "conflict2 -- rebase" << endl;
 
     cout << "Write by 21unxi" << endl;
 
