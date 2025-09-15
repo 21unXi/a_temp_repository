@@ -4,7 +4,7 @@ using namespace std;
 int main(){
     cout << "conflict2 -- rebase" << endl;
 
-    cout << "Write by 21unxi" << endl;
+    cout << "conflict 2 by b" << endl;
 
     return 0;
 }
