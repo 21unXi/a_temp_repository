@@ -4,7 +4,7 @@ using namespace std;
 int main(){
     cout << "conflict1 -- merge" << endl;
 
-    cout << "make conflict by a" << endl;
+    cout << "solved conflict 1" << endl;
 
     return 0;
 }
