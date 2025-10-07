@@ -1,4 +1,4 @@
-name: Code Style Linter
+name: Code Style Linter and Tests
 
 on: [push, pull_request]
 
@@ -23,3 +23,7 @@ jobs:
     - name: Run flake8
       run: |
         flake8 . --count --show-source --statistics --max-line-length=79
+
+    - name: Run tests with pytest
+      run: |
+        pytest -v
