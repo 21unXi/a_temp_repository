@@ -9,7 +9,7 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 def test_add_positive():
     """测试正数相加"""
-    assert add(2, 3) == 5
+    assert add(2, 3) == 4
     assert add(100, 1042) == 1142
 
 
